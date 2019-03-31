@@ -1,6 +1,6 @@
 | &nbsp;HTML&nbsp; |          CSS          |       Javascript       | &nbsp;前端构建工具&nbsp;  |
 | :--------------: | :-------------------: | :--------------------: | :-----------------------: |
-| [:memo:](#HTML)  | [:floppy_disk:](#CSS) | [:cloud:](#Javascript) | [:wrench:](#前端构建工具) |
+| [:memo:](#memo-HTML)  | [:floppy_disk:](#floppy_disk-CSS) | [:cloud:](#cloud-Javascript) | [:wrench:](#wrench-前端构建工具) |
 
 <br>
 

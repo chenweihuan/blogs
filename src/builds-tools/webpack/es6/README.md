@@ -1,4 +1,4 @@
-## 从零搭建 webpack 配置 - ES6
+## 从零搭建 webpack 配置 - ES6(基于webpack4.x)
 
 1. 安装 babel-loader、babel-core、babel-preset-env
 
