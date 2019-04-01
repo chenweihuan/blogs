@@ -32,7 +32,7 @@ module.exports = {
 },
 ```
 
-运行 npm start 之后，打开http://localhost:8080/即可调试开发环境下的代码。
+运行 npm start 之后，打开 http://localhost:8080/ 即可调试开发环境下的代码。
 
 <br/><br/>
 
@@ -66,7 +66,7 @@ if (module.hot) {
 ```
 
 ### host属性
-如果不仅要在http://localhost:8080/上打开，还需要在http://本机ip:8080/打开，那么请设置host为"0.0.0.0"。这样的话，只要手机和电脑连上同一个wifi，就可以进行移动端的网页调试了。
+如果不仅要在 http://localhost:8080/ 上打开，还需要在 http://本机ip:8080/ 打开，那么请设置host为"0.0.0.0"。这样的话，只要手机和电脑连上同一个wifi，就可以进行移动端的网页调试了。
 ```
 devServer: {
   //...
