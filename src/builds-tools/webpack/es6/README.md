@@ -1,4 +1,4 @@
-## 从零搭建 webpack 配置 - ES6(基于webpack4.x)
+## 从零搭建 webpack 配置 - ES6(基于 webpack4.x)
 
 1. 安装 babel-loader、babel-core、babel-preset-env
 
@@ -10,9 +10,9 @@ npm install -D babel-loader babel-core babel-preset-env
 
 这三个文件是必须的，但彼此的作用各不相同。
 
-> babel-loader：虽然 webpack 本身就能够处理.js 文件，但无法对 ES2015+的语法进行转换。babel-loader 的作用正是实现对使用了 ES2015+语法的.js 文件进行处理，也就是把高级语法转为至低级语法，使浏览器兼容识别。  
+> babel-loader：虽然 webpack 本身就能够处理.js 文件，但无法对 ES2015+的语法进行转换。babel-loader 的作用正是实现对使用了 ES2015+语法的.js 文件进行处理，也就是把高级语法转为至低级语法，使浏览器兼容识别。
 
-> babel-core：babel 的 node API 已经被移到 babel-core 中，所以 babel-core 的作用在于提供一系列 api。这便是说，当 webpack 使用 babel-loader 处理文件时，babel-loader 实际上调用了 babel-core 的 api。  
+> babel-core：babel 的 node API 已经被移到 babel-core 中，所以 babel-core 的作用在于提供一系列 api。这便是说，当 webpack 使用 babel-loader 处理文件时，babel-loader 实际上调用了 babel-core 的 api。
 
 > babel-preset-env：告诉 babel 使用哪种转码规则进行文件处理。
 
@@ -116,10 +116,44 @@ npm install -D @babel/core @babel/preset-env
 
 <div align="center"> <img src="./docs/main.png"/> </div>
 
-在我们每次npm run build的时候都会在dist目录下创建很多打好的包，如果积累过多可能也会混乱，所以应该在每次打包之前将dist目录下的文件都清空，然后再把打好包的文件放进去，这里提供一个clean-webpack-plugin插件。[clean-webpack-plugin文档](https://github.com/johnagan/clean-webpack-plugin)
+<br/><br/>
+
+### 控制台报错：Cannot read property 'bindings' of null
+
+```
+//index.js
+let a = 1;
+console.log(a);
+console.log([1, 2, 3].map(val => val * val));
+```
+
+当修改 index.js 为上面内容的时候，控制台就会报错：
+
+```
+TypeError: Cannot read property 'bindings' of null
+    at Scope.moveBindingTo (C:\Users\EDZ\Desktop\demo\blog\node_modules\_@babel_traverse@7.4.0@@babel\traverse\lib\scope\index.js:864:13)
+    at BlockScoping.updateScopeInfo (C:\Users\EDZ\Desktop\demo\blog\node_modules\_babel-plugin-transform-es2015-block-scoping@6.26.0@babel-plugin-transform-es2015-block-scoping\lib\index.js:364:17)
+```
+
+原因：Babel 版本中的错过匹配引起的（v6 vs v7）。有人在 github 的 issues 的评论提出了解决方案：[https://github.com/storybooks/storybook/issues/3937](https://github.com/storybooks/storybook/issues/3937)  
+解决方案：修改.babelrc 文件
+
+```
+{
+  "presets": ["@babel/preset-env"]
+}
+```
+
+<br/><br/>
+
+### 安利插件 -- clean-webpack-plugin
+
+在我们每次 npm run build 的时候都会在 dist 目录下创建很多打好的包，如果积累过多可能也会混乱，所以应该在每次打包之前将 dist 目录下的文件都清空，然后再把打好包的文件放进去，这里提供一个 clean-webpack-plugin 插件。[clean-webpack-plugin 文档](https://github.com/johnagan/clean-webpack-plugin)
+
 ```
 npm i clean-webpack-plugin -D
 ```
+
 ```
 let CleanWebpackPlugin = require('clean-webpack-plugin');
 
