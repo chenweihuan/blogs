@@ -15,7 +15,7 @@ npm install -S phaser-ce@2.11.0
 npm install -D expose-loader
 ```
 
-> expose-loader：
+> expose-loader：把一个模块导出并付给一个全局变量。例如下面的{ test: /pixi\.js/, use: ["expose-loader?PIXI"] }，就是把pixi.js中exports出来的变量付给全局变量"PIXI"，这样的话就不会出现PIXI is not defined的错误了。
 
 2. 配置 webpack.config.js
 
@@ -63,4 +63,5 @@ export default game;
 ```
 
 ### 控制台报错：PIXI is not defined
-如果只安装了phaser-ce，没引入PIXI和p2，就会报这个错。根据上面的步骤来写就没问题啦。其实官方github也有说的，[PIXI is not defined](https://github.com/photonstorm/phaser/issues/2762)，或者参考[phaser-es6-webpack](https://github.com/lean/phaser-es6-webpack)的目录。
+
+如果只安装了 phaser-ce，没引入 PIXI 和 p2，就会报这个错。根据上面的步骤来写就没问题啦。其实官方 github 也有说的，[PIXI is not defined](https://github.com/photonstorm/phaser/issues/2762)，或者参考[phaser-es6-webpack](https://github.com/lean/phaser-es6-webpack)的目录。
