@@ -1,6 +1,6 @@
-|         HTML         |                CSS                |          Javascript          |           前端构建工具           |               h5 小游戏               |
+|         HTML         |                CSS                |          Javascript          |           前端构建工具           |               小游戏               |
 | :------------------: | :-------------------------------: | :--------------------------: | :------------------------------: | :-----------------------------------: |
-| [:memo:](#memo-HTML) | [:floppy_disk:](#floppy_disk-CSS) | [:cloud:](#cloud-Javascript) | [:wrench:](#wrench-前端构建工具) | [:video_game:](#video_game-h5 小游戏) |
+| [:memo:](#memo-HTML) | [:floppy_disk:](#floppy_disk-CSS) | [:cloud:](#cloud-Javascript) | [:wrench:](#wrench-前端构建工具) | [:video_game:](#video_game-小游戏) |
 
 <br>
 
@@ -16,6 +16,6 @@
 
 - [webpack](./src/builds-tools/webpack)
 
-## :video_game: h5 小游戏
+## :video_game: 小游戏
 
--[phaser](./src/h5-game/phaser)
+- [phaser](./src/h5-game/phaser)
