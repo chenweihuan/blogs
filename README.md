@@ -17,7 +17,7 @@
 ## :wrench: 前端构建工具
 
 - [webpack](./src/builds-tools/webpack)
-- [知识小点](./src/dot)
+- [知识小点](./src/builds-tools/dot)
 
 ## :video_game: 小游戏
 
