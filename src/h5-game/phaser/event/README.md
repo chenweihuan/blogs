@@ -1,6 +1,6 @@
 ## Phaser 中的事件机制
 
-输入事件分为两种，一种是作用于全局的，
+1. 输入事件分为两种，一种是作用于全局的，
 
 ```
 game.input.onDown.add(()=> {
@@ -24,5 +24,16 @@ beginBtn.events.onInputDown.add(()=> {
 });
 ```
 
+2. 设置元素的隐藏和显示  
+1）使用game.add.sprite()新建sprite元素。  
+2）设置inputEnabled为true。  
+3）设置visible，true为可见的，false为隐藏的。  
+```
+let voiceOpen = game.add.sprite(50,50,"voiceOpen");
+voiceOpen.inputEnabled = true;
+voiceOpen.events.onInputDown.add(()=> {
+  voiceOpen.visible = false;
+});
+```
 ### 待办事项
 - [x] 键盘按下、手指触摸事件...
