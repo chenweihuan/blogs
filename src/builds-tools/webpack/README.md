@@ -10,3 +10,4 @@
 - [resolve解析](./webpack-config/resolve.md)
 
 ## 安利plugin
+- [打包前清空dist目录 -- clean-webpack-plugin](./plugin/cleanWebpack.md)

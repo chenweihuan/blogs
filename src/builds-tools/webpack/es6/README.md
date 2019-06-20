@@ -146,25 +146,60 @@ TypeError: Cannot read property 'bindings' of null
 
 <br/><br/>
 
-### 安利插件 -- clean-webpack-plugin
+### .babelrc的presets和plugins配置解析
+Babel插件一般尽可能拆成小的力度，开发者可以按需引进。比如对ES6转ES5的功能，Babel官方拆成了20+个插件。<br/><br/>
+这样的好处显而易见，既提高了性能，也提高了扩展性。比如开发者想要体验ES6的箭头函数特性，那他只需要引入transform-es2015-arrow-functions插件就可以，而不是加载ES6全家桶。
 
-在我们每次 npm run build 的时候都会在 dist 目录下创建很多打好的包，如果积累过多可能也会混乱，所以应该在每次打包之前将 dist 目录下的文件都清空，然后再把打好包的文件放进去，这里提供一个 clean-webpack-plugin 插件。[clean-webpack-plugin 文档](https://github.com/johnagan/clean-webpack-plugin)
-
+#### 一：plugins(插件)
+先简单介绍下 plugins ，babel中的插件，通过配置不同的插件才能告诉babel，我们的代码中有哪些是需要转译的。
 ```
-npm i clean-webpack-plugin -D
-```
-
-```
-let CleanWebpackPlugin = require('clean-webpack-plugin');
-
-module.exports = {
-    plugins: [
-        // 打包前先清空，默认情况下，此插件将删除webpack output.path目录中的所有文件。所以不需要添加"dist"这个参数
-        new CleanWebpackPlugin()
+{
+    "plugins": [
+        "transform-es2015-arrow-functions", //转译箭头函数
+        "transform-es2015-classes", //转译class语法
+        "transform-es2015-spread", //转译数组解构
+        "transform-es2015-for-of" //转译for-of
     ]
 }
 ```
+下面介绍一些几个plugin：
+1. transform-es2015-arrow-functions：只引入箭头函数这个es6特性。  
+```
+{
+  "plugins": ["transform-es2015-arrow-functions"]
+}
+```
+2. transform-runtime  
+这个插件最大的作用主要有几下几点：
+  - 解决编译中产生的重复的工具函数，减小代码体积
+  - 非实例方法的poly-fill，如Object.assign，但是实例方法不支持，如"foobar".includes("foo")，这时候需要单独引入babel-polyfill
+```
+{
+  "plugins": ["transform-runtime", options]
+}
+```
+这里的options一般不用自己设置，用默认的即可。更多细节参见[文档](https://babeljs.io/docs/plugins/transform-runtime/)。
 
-#### 待办事项
+3. transform-remove-console  
+使用这个插件，编译后的代码都会移除console.*，妈妈再也不用担心线上代码有多余的console.log了。当然很多时候，我们如果使用webpack，会在webpack中配置。
+```
+{
+  "plugins": ["transform-remove-console"]
+}
+```
 
--[x]理解 presets 和 plugins 的配置
+### 二：presets(预设)
+显然这样一个一个配置插件会非常的麻烦，为了方便，babel为我们提供了一个配置项叫做persets（预设），预设就是一系列插件的集合。  
+如果要转译ES6语法，添加ES6全家桶，只要按如下方式配置即可： 
+```
+//先安装@babel/preset-env
+{
+    "presets": ["@babel/preset-env"]
+}
+```
+
+### 三：Plugin与Preset执行顺序
+可以同时使用多个Plugin和Preset，此时，它们的执行顺序非常重要。  
+- 具体而言，plugins优先于presets进行编译。
+- plugins按照数组的index增序(从数组第一个到最后一个)进行编译。
+- presets按照数组的index倒序(从数组最后一个到第一个)进行编译
