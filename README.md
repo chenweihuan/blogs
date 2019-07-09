@@ -4,7 +4,8 @@
 
 <br>
 
-⭐️ 以个人独白的方式，记录学习经验，希望能改掉自己学完就扔的老毛病。
+⭐️ 个人独白，记录学习经验，希望能改掉自己学完就扔的老毛病。  
+:heart: 近期发现[壹题](https://github.com/Advanced-Frontend/Daily-Interview-Question)的题目实在有趣，主要对编程题感兴趣，找个地方记录[思路和答案](./src/Daily-Interview-Question)。  
 
 ## :memo: HTML
 
