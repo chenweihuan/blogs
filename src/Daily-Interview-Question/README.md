@@ -1,8 +1,8 @@
 ## Daily-Interview-Question
 
-- [第101题：修改以下 print 函数，使之输出 0 到 99](#修改以下print函数使之输出0到99)
+- [第101题：修改以下 print 函数，使之输出 0 到 99](#第101题：修改以下-print-函数使之输出-0-到-99)
 
-### 修改以下 print 函数，使之输出 0 到 99
+### 第101题：修改以下 print 函数，使之输出 0 到 99
 > 要求：
 > 1、只能修改 setTimeout 到 Math.floor(Math.random() * 1000 的代码  
 > 2、不能修改 Math.floor(Math.random() * 1000  
