@@ -1,6 +1,95 @@
 ## Daily-Interview-Question
 
-- [第101题：修改以下 print 函数，使之输出 0 到 99](#第101题：修改以下-print-函数使之输出-0-到-99)
+- [第100题：请写出如下代码的打印结果，考察原型和函数的理解](#第100题请写出如下代码的打印结果考察原型和函数的理解)
+- [第101题：修改以下 print 函数，使之输出 0 到 99](#第101题修改以下-print-函数使之输出-0-到-99)
+
+### 第100题：请写出如下代码的打印结果，考察原型和函数的理解
+```
+function Foo() {
+    Foo.a = function() {
+        console.log(1)
+    }
+    this.a = function() {
+        console.log(2)
+    }
+}
+Foo.prototype.a = function() {
+    console.log(3)
+}
+Foo.a = function() {
+    console.log(4)
+}
+Foo.a();
+let obj = new Foo();
+obj.a();
+Foo.a();
+```
+答案解析：
+```
+function Foo() {
+    Foo.a = function() {
+        console.log(1)
+    }
+    this.a = function() {
+        console.log(2)
+    }
+}
+//到这里只是声明Foo函数，并没有执行
+
+Foo.prototype.a = function() {
+    console.log(3)
+}
+// 现在在 Foo 上挂载了原型方法 a ，方法输出值为 3。
+
+Foo.a = function() {
+    console.log(4)
+}
+// 现在在 Foo 上挂载了直接方法 a ，输出值为 4
+
+Foo.a();
+// 立刻执行了 Foo 上的 a 方法，也就是刚刚定义的直接方法，所以输出 4。注意，Foo.a()不会执行原型上的方法，通过new出来的实例才有可能执行。
+
+let obj = new Foo();
+/* 这里调用了 Foo 的构建方法。Foo 的构建方法主要做了两件事：
+1. 将全局的 Foo 上的直接方法 a 替换为一个输出 1 的方法。
+2. 在新对象上挂载直接方法 a ，输出值为 2。
+*/
+
+obj.a();
+// 因为有直接方法 a ，不需要去访问原型链，所以使用的是构建方法里所定义的 this.a，输出 2
+
+Foo.a();
+// 构建方法里已经替换了全局 Foo 上的 a 方法，所以输出 1
+```
+<strong>总结自己混淆的东西：</strong>
+1. Foo.a()不会执行构建方法里所定义的 this.a，通过new出来的实例才会执行。
+```
+function Foo() {
+    this.a = function() {
+        console.log(2)
+    }
+}
+Foo.a = function() {
+    console.log(4)
+}
+Foo.a();//4
+let obj = new Foo();
+obj.a();//2
+```
+2. 同样，Foo.a()也不会执行原型上的方法，通过new出来的实例才会执行，当构建方法没声明this.a时。
+```
+function Foo() { }
+Foo.prototype.a = function() {
+    console.log(3)
+}
+Foo.a = function() {
+    console.log(4)
+}
+Foo.a();//4
+let obj = new Foo();
+obj.a();//3
+```
+记住啦，下次切勿混淆。
 
 ### 第101题：修改以下 print 函数，使之输出 0 到 99
 > 要求：

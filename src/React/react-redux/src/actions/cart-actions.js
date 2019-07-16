@@ -1,6 +1,7 @@
 export const UPDATE_CART = 'UPDATE_CART';
 export const DELETE_FROM_CART = 'DELETE_FROM_CART';
 export const ADD_TO_CART = 'ADD_TO_CART';
+export const GET_LIST = 'GET_LIST';
 
 export function addToCart(product, quantity, unitCost) {
   return {
@@ -26,5 +27,12 @@ export function deleteFromCart(product) {
     payload: {
       product
     }
+  }
+}
+
+export function getList(list) {
+  return {
+    type: GET_LIST,
+    list
   }
 }
