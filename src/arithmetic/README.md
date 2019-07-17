@@ -5,3 +5,4 @@
 - [水仙花数](./math/daffodil.md)
 - [杨辉三角](./math/three.md)
 - [找到100以内的质数](./math/primeNum.md)
+- [实现九九乘法表](./math/nine.md)
