@@ -1,6 +1,7 @@
 ## vue
 - [简单的弹窗组件实现](./vue/component.md)
 - [图片预加载](./preload-image)
+- [vue移动端适配方案--vw](./dot/mobile.md)
 
 ## vue-cli
 
