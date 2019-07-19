@@ -2,6 +2,8 @@
 - [简单的弹窗组件实现](./vue/component.md)
 - [图片预加载](./preload-image)
 - [vue移动端适配方案--vw](./dot/mobile.md)
+- [基础组件的自动化全局注册](./vue-component)
+- [实现防抖/节流HOC](./dot/throttle.md)
 
 ## vue-cli
 
