@@ -3,7 +3,11 @@
 - [图片预加载](./preload-image)
 - [vue移动端适配方案--vw](./dot/mobile.md)
 - [基础组件的自动化全局注册](./vue-component)
+- [全局过滤器注册](./dot/filter.md)
 - [实现防抖/节流HOC](./dot/throttle.md)
+
+## vuex
+- [vuex的基本项目结构](./vuex)
 
 ## vue-cli
 
