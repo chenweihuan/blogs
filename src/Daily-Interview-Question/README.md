@@ -2,6 +2,8 @@
 
 - [第100题：请写出如下代码的打印结果，考察原型和函数的理解](#第100题请写出如下代码的打印结果考察原型和函数的理解)
 - [第101题：修改以下 print 函数，使之输出 0 到 99](#第101题修改以下-print-函数使之输出-0-到-99)
+- [第110题：编程题，请写一个函数，完成以下功能](#第110题编程题请写一个函数完成以下功能)
+- [第111题：编程题，对象的扁平化](#第111题编程题对象的扁平化)
 
 ### 第100题：请写出如下代码的打印结果，考察原型和函数的理解
 ```
@@ -142,4 +144,89 @@ function print(n){
   },10, Math.floor(Math.random() * 1000));
 }
 //在10ms后，执行第一个参数function，而后面的Math.floor(Math.random() * 1000)将作为参数传给第一个参数function。
+```
+
+### 第110题：编程题，请写一个函数，完成以下功能
+[1,2,3,5,7,8,10] => 1~3,5,7~8,10
+```[js]
+let arr = [1,2,3,5,7,8,10];
+function fn(arr) {
+	let res = [];
+	for(let i=0;i<arr.length;i++){
+		let now = i;
+		while(arr[i] === arr[i+1]-1)i++;
+		res.push(i === now?arr[i]:arr[now]+"~"+arr[i]);
+	}
+	return res.join(",")
+}
+console.log(fn(arr));//1~3,5,7~8,10
+```
+
+
+### 第111题：编程题，对象的扁平化
+```[javascript/js]
+var entry = {
+  a: {
+    b: {
+      c: {
+        dd: 'abcdd'
+      }
+    },
+    d: {
+      xx: 'adxx'
+    },
+    e: 'ae'
+  }
+}
+
+// 要求转换成如下对象
+var output = {
+  'a.b.c.dd': 'abcdd',
+  'a.d.xx': 'adxx',
+  'a.e': 'ae'
+}
+```
+一开始想到肯定是需要递归的，于是我写出第一版（错误）代码：
+```[javascript/js]
+function fns(o){
+	var obj = {};
+	var str = ""
+	function fn(a) {
+		Object.keys(a).forEach(v=>{
+			if(typeof a[v] === "object"){
+				str += (v+".");
+				fn(a[v]);
+			}else{
+				str += v;
+				obj[str] = a[v];
+				str = ""
+			}
+		})
+	}
+	fn(o);
+	return obj;
+}
+```
+可是输出结果不正确，丢掉了一些key（已经遍历过的key），如下
+```[js]
+{
+  a.b.c.dd: "abcdd"
+  d.xx: "adxx"
+  e: "ae"
+}
+```
+所以必须要找个地方把父母的key存起来，在递归的第二个参数存起来即可。
+```[js]
+function flatObj(obj, parentKey = "", result = {}) {
+  for (const key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      let keyName = `${parentKey}${key}`;
+      if (typeof obj[key] === 'object')
+        flatObj(obj[key], keyName+".", result)
+      else
+        result[keyName] = obj[key];
+    }
+  }
+  return result;
+}
 ```
