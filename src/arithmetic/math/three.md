@@ -7,7 +7,7 @@
 <div align="center"><img src="./image/three1.jpg"/></div>
 
 ### 2.代码实现
-```
+```js
 function Combination(m,n){
     return (n==0 || m==n)? 1: Combination(m-1,n-1)+Combination(m-1,n)
 }

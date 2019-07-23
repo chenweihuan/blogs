@@ -4,7 +4,7 @@
 
 <div align="center"><img src="./../doc/border_1.png" /></div>
 
-```
+```css
 .box{
     width: 100px;
     height: 100px;
@@ -17,7 +17,7 @@
 
 <div align="center"><img src="./../doc/border_2.png" /></div>
 
-```
+```css
 .box {
     width: 200px;
     height: 100px;
@@ -34,7 +34,7 @@
 
 对于英文字体，通过 font-family 属性来引用字体的名称。
 
-```
+```css
 @font-face{
     font-family: myFirstFont;
     src: url(sansation_light.woff);

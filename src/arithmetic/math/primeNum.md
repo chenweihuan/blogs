@@ -5,7 +5,7 @@
 
 2. 代码实现  
 思路一：暴力拆解，验证一个数num是否是质数，用一个for循环，只要num%i===0，num就不是质数，否则就是。
-```
+```js
 function fn(num){
     for(let i=2;i<=Math.sqrt(num);i++){//i小于或者等于num的开方即可，因为开方的两边是对称的
         if(num%i === 0)return false;
@@ -22,7 +22,7 @@ function getZhishu(end){
 ```
 
 思路二：先把所有2的倍数去掉，然后再把3的倍数去掉，再把5的倍数去掉.....
-```
+```js
 function fn(N){
     let res = [];// 用于存素数结果集
     let nums = [];// 待筛选的数据集

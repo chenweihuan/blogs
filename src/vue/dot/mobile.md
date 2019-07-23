@@ -6,7 +6,7 @@ npm i postcss-aspect-ratio-mini postcss-px-to-viewport postcss-write-svg postcss
 ```
 
 ### 2.修改package.json
-```
+```js
 "postcss": {
   "plugins": {
     "postcss-import": {},

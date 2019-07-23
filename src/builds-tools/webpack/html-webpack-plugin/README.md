@@ -8,7 +8,7 @@ npm i html-webpack-plugin -D
 ```
 
 2. 在webpack.config.js添加配置
-```
+```js
 let path = require('path');
 let HtmlWebpackPlugin = require('html-webpack-plugin');
 

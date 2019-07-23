@@ -20,7 +20,7 @@ publicPath 会因我们的环境而不同，一般有三种情况：本地开发
 ```
 
 2. 修改vue.config.js。
-```
+```js
 module.exports = {
   publicPath: process.env.BASE_URL
 };

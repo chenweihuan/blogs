@@ -45,7 +45,7 @@ import(/* webpackChunkName: 'phaser'*/ "phaser").then(Phaser => {
 解决方法：
 1. 安装@babel/plugin-syntax-dynamic-import，支持babel语法动态导入。
 2. 修改.babelrc文件。
-```
+```js
 {
   "plugins": ["@babel/plugin-syntax-dynamic-import"],
   ...

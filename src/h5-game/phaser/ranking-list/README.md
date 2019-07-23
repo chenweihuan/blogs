@@ -5,7 +5,7 @@
 
 1. 设置mask
 排行榜的关键点在于怎么使元素上下移动，参考[官方example](http://phaser.io/examples/v2/sprites/sprite-group-mask)后，使用mask属性对元素进行移动。其实就是添加一个遮盖层，节点元素可以在上面移动，出了遮盖层区域就显示不了，这刚刚好符合滚动排行榜的需求呀。
-```
+```js
 let groupScore = game.add.group();//需要滚动的元素组
 let gameWidth = game.world.width,//游戏屏幕宽度
     gameHeight = game.world.height;//游戏屏幕高度
@@ -23,7 +23,7 @@ groupScore.mask = mask;
 
 2. 监听手指在mask范围内触摸移动
 当用户在mask区域上下滑动的时候，排行榜才开始滚动，下面就是监听手指是否在mask范围内上下滑动。
-```
+```js
 let touching = false;
 // 监听按下事件
 game.input.onDown.add(pointer => {
@@ -43,7 +43,7 @@ game.input.onUp.add(() => {
 
 3. 最后一步，开始滑动。
 排行榜滑动分为两种情况，一是手指往下滑而且没到顶部，二是手指往上滑而且没到底部。
-```
+```js
 let pointerY = 0;//记录上次触摸的y轴坐标
 game.input.addMoveCallback(MoveCallback);
 
@@ -74,7 +74,7 @@ function MoveCallback(pointer, x, y, isTap) {
 ### 优化
 1. 添加节流函数
 因为最后是监听触摸函数，所以会频繁触发手指滑动事件的回调函数，设置节流函数防止执行太快。
-```
+```js
  // 监听滑动事件
 game.input.addMoveCallback(throttle(MoveCallback, 10));
 

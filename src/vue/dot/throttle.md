@@ -1,7 +1,7 @@
 ## 实现防抖/节流HOC（高阶组件）
 
 ### 1.在components下新建Throttle.js
-```
+```js
 // fn，防抖节流后执行的函数
 // wait，间隔时间，默认50ms
 // isDebounce，true为防抖，false为节流
@@ -61,13 +61,13 @@ export default {
 ```
 
 ### 2.在main.js中引入Throttle.js
-```
+```js
 import Throttle from './components/Throttle'
 Vue.component('Throttle', Throttle)
 ```
 
 ### 3.使用
-```
+```html
 <template>
   <div id="app">
     <Throttle :time="1000" events="click">

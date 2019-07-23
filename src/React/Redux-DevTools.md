@@ -3,7 +3,7 @@
 1. 谷歌商店安装Redux-DevTools
 
 2. 修改store.js
-```
+```js
 ...
 let store = createStore(rootReducer,
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
@@ -12,7 +12,7 @@ let store = createStore(rootReducer,
 ``` 
 
 旧版的store.js：
-```
+```js
 import { createStore,compose,applyMiddleware } from "redux";
 import thunk from 'redux-thunk';
 import rootReducer from './reducers';

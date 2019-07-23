@@ -7,7 +7,7 @@ vue 自己定义的标签 <router-link> 还有 组件<my-vue-template/> 是没�
 
 ## 监听route的变化
 想想啊，watch方法既然可以监听data中的属性变化，同样也可以监听 $route 的变化。
-```
+```js
 watch(){
     $route(to,from) {
         console.log(to,from)

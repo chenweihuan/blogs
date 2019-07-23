@@ -2,11 +2,13 @@
 
 在我们每次 npm run build 的时候都会在 dist 目录下创建很多打好的包，如果积累过多可能也会混乱，所以应该在每次打包之前将 dist 目录下的文件都清空，然后再把打好包的文件放进去，这里提供一个 clean-webpack-plugin 插件。[clean-webpack-plugin 文档](https://github.com/johnagan/clean-webpack-plugin)
 
+### 1.安装插件
 ```
 npm i clean-webpack-plugin -D
 ```
 
-```
+### 2.配置webpack
+```js
 let CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {

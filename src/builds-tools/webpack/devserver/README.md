@@ -10,7 +10,7 @@ npm i -D webpack-dev-server
 
 2. 在 webpack.config.js 添加 devServer 配置
 
-```
+```js
 var path = require('path');
 
 module.exports = {
@@ -42,7 +42,7 @@ module.exports = {
 
 1. 配置 webpack.config.js
 
-```
+```js
 let webpack = require('webpack');
 
 module.exports = {

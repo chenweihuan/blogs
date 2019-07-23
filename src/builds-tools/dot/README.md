@@ -7,7 +7,7 @@
 npm install --save-dev --save-exact prettier
 ```
 2. 在项目根目录创建 .prettierrc 文件，内容如下
-```
+```js
 {
   "printWidth": 80,//单行最大长度,推荐（单行）不超过80个字符的coding方式
   "tabWidth": 2,//设置工具每一个水平缩进的空格数

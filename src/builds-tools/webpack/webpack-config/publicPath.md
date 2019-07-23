@@ -10,7 +10,7 @@
 ```
 
 2. 修改webpack.config.js
-```
+```js
 let config = {};
 module.exports = (env, argv) => {
   //env：环境对象

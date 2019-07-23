@@ -1,6 +1,6 @@
 ## 实现九九乘法表
 其实很简单，自己还需多动脑筋多动手多实践。
-```
+```js
 // String.prototype.padEnd()：用一个字符串填充当前字符串。
 let table = "";
 for(let i=1;i<=9;i++){

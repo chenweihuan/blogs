@@ -19,7 +19,7 @@ npm install -D expose-loader
 
 2. 配置 webpack.config.js
 
-```
+```js
 // Phaser webpack config
 var phaserModule = path.join(__dirname, "/node_modules/phaser-ce/");
 var phaser = path.join(phaserModule, "build/custom/phaser-split.js");
@@ -48,7 +48,7 @@ module.exports = {
 
 3. 在 index.js 引入相关资源
 
-```
+```js
 import "pixi";
 import "p2";
 import Phaser from "phaser";

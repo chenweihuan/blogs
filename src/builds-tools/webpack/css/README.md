@@ -19,7 +19,7 @@ import './css/style.css';   // 引入css
 
 3.  配置 webpack.config.js
 
-```
+```js
 module.exports = {
     //...
     module: {
@@ -42,7 +42,7 @@ module.exports = {
 npm i extract-text-webpack-plugin@next -D
 ```
 2. 配置webpack.config.js
-```
+```js
 let ExtractTextWebpackPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {

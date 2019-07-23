@@ -1,6 +1,6 @@
 ## 基础组件的自动化全局注册
 我们写组件的时候通常需要引入另外的组件：
-```
+```html
 <template>
   <div id="app">
     <ComA/>
@@ -19,7 +19,7 @@
 写小项目这么引入还好，但等项目一臃肿起来。 这里是借助webpack，使用 require.context() 方法来创建自己的模块上下文，从而实现自动动态require组件。
 
 ### 1.在放基础组件的文件夹根目录下新建componentRegister.js
-```
+```js
 import Vue from 'vue'
 /**
  * 首字母大写
@@ -66,7 +66,7 @@ requireComponent.keys().forEach(filePath => {
 ```
 
 ### 2.在main.js中引入componentRegister.js
-```
+```js
 import 'components/componentRegister.js'
 ```
 我们就可以随时随地使用这些基础组件，无需手动引入了。更多查看[官方文档：基础组件的自动化全局注册](https://cn.vuejs.org/v2/guide/components-registration.html#%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6%E7%9A%84%E8%87%AA%E5%8A%A8%E5%8C%96%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8C)

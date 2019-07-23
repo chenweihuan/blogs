@@ -6,7 +6,7 @@ npm install vue-router
 ```
 
 ### 2.在router文件夹新建index.js
-```
+```js
 import Vue from 'vue';
 import Router from 'vue-router';
 import Guide from './../views/Guide/Guide';
@@ -31,7 +31,7 @@ export default new Router({
 ```
 
 ### 3. 在main.js引入路由js
-```
+```js
 import Vue from 'vue'
 import router from './router';
 import App from './App.vue'
@@ -45,7 +45,7 @@ new Vue({
 ```
 
 ### 4.在需要的地方引入router-view
-```
+```html
 <template>
   <div id="app">
     <router-view/>

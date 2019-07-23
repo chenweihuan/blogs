@@ -26,7 +26,7 @@ npm install -D webpack webpack-cli
 
 配置 babel 规则有两种方式。一是通过 package.json，在 package.json 文件中增加一个“babel"属性，该属性是一个 JSON 对象，作用是设置项目中的 babel 转码规则和使用到的 babel 插件。
 
-```
+```js
 "babel":{
   "presets": ["env"], //设置转码规则，告诉npm本项目使用bable-preset-env规则进行转码
   "plugins": [] //设置使用到的插件
@@ -35,7 +35,7 @@ npm install -D webpack webpack-cli
 
 另一种方式是通过.babelrc 文件。在项目根目录下新建.babelrc 文件：
 
-```
+```js
 {
   "presets": ["env"]
 }
@@ -45,7 +45,7 @@ npm install -D webpack webpack-cli
 
 仅有上面仍然不能起作用，虽然上面已经配置好 babel 的规则，但 webpack 仍然不知道何时何地使用该规则，这便需要使用 webpack.config.js 文件。在根目录下新建 webpack.config.js 文件：
 
-```
+```js
 const path = require("path");
 
 module.exports={
@@ -71,13 +71,13 @@ module.exports={
 
 index.js 内容如下：
 
-```
+```js
 console.log([1, 2, 3].map(val => val * val));
 ```
 
 在 package.json 文件的"scripts"属性下增加了"build"属性
 
-```
+```js
 "scripts": {
     "build":"webpack --mode production"
 }
@@ -120,7 +120,7 @@ npm install -D @babel/core @babel/preset-env
 
 ### 控制台报错：Cannot read property 'bindings' of null
 
-```
+```js
 //index.js
 let a = 1;
 console.log(a);

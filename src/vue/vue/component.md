@@ -2,7 +2,7 @@
 使用插槽写一个弹窗组件，1s后消失。其实我写了很多遍，就是每次用都忘记，真奇葩！
 
 1. 新建Tip.vue
-```
+```html
 <template>
   <div class="tip-container flex-item">
     //具名插槽，灵活控制弹窗内容
@@ -23,7 +23,7 @@ export default {
 <style>
 ```
 2. 引用Tip组件
-```
+```html
 <template v-if="tipFlag">
   <div>
     <Tip @tip-vanish="this.tipFlag = false">

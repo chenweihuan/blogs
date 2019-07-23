@@ -6,7 +6,7 @@
 - [第111题：编程题，对象的扁平化](#第111题编程题对象的扁平化)
 
 ### 第100题：请写出如下代码的打印结果，考察原型和函数的理解
-```
+```js
 function Foo() {
     Foo.a = function() {
         console.log(1)
@@ -27,7 +27,7 @@ obj.a();
 Foo.a();
 ```
 答案解析：
-```
+```js
 function Foo() {
     Foo.a = function() {
         console.log(1)
@@ -65,7 +65,7 @@ Foo.a();
 ```
 <strong>总结自己混淆的东西：</strong>
 1. Foo.a()不会执行构建方法里所定义的 this.a，通过new出来的实例才会执行。
-```
+```js
 function Foo() {
     this.a = function() {
         console.log(2)
@@ -79,7 +79,7 @@ let obj = new Foo();
 obj.a();//2
 ```
 2. 同样，Foo.a()也不会执行原型上的方法，通过new出来的实例才会执行，当构建方法没声明this.a时。
-```
+```js
 function Foo() { }
 Foo.prototype.a = function() {
     console.log(3)
@@ -98,7 +98,7 @@ obj.a();//3
 > 1、只能修改 setTimeout 到 Math.floor(Math.random() * 1000 的代码  
 > 2、不能修改 Math.floor(Math.random() * 1000  
 > 3、不能使用全局变量  
-```
+```js
 function print(n){
   setTimeout(() => {
     console.log(n);
@@ -109,7 +109,7 @@ for(var i = 0; i < 100; i++){
 }
 ```
 <strong>思路：</strong>  一开始我居然以为传进print函数的i一直是100，认真想想，for循环里面的代码已经写到print函数里，根据js函数作用域的规则，传进print函数的i是0,1,2...所以从setTimeout的参数入手，要么修改第一个参数为立即执行函数等，要么添加第三个参数。
-```
+```js
 for(var i = 0; i < 100; i++){
   setTimeout(() => {
     console.log(i);
@@ -119,7 +119,7 @@ for(var i = 0; i < 100; i++){
 ```
 
 1. 修改setTimeout的第一个参数为立即执行函数、JS表达式、call语法，反正就是编译到那里就要执行了。
-```
+```js
 function print(n){
   setTimeout((() => {
   	console.log(n);
@@ -137,7 +137,7 @@ function print(n){
 }
 ```
 2. 彻底理解setTimeout函数[MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/setTimeout)的参数说明，原来还能添加第三、四个参数，后面的参数是附加参数，一旦定时器到期，它们会作为参数传递给第一个参数function。
-```
+```js
 function print(n){
   setTimeout(() => {
     console.log(n);
@@ -148,7 +148,7 @@ function print(n){
 
 ### 第110题：编程题，请写一个函数，完成以下功能
 [1,2,3,5,7,8,10] => 1~3,5,7~8,10
-```[js]
+```js
 let arr = [1,2,3,5,7,8,10];
 function fn(arr) {
 	let res = [];
@@ -164,7 +164,7 @@ console.log(fn(arr));//1~3,5,7~8,10
 
 
 ### 第111题：编程题，对象的扁平化
-```[javascript/js]
+```js
 var entry = {
   a: {
     b: {
@@ -187,7 +187,7 @@ var output = {
 }
 ```
 一开始想到肯定是需要递归的，于是我写出第一版（错误）代码：
-```[javascript/js]
+```js
 function fns(o){
 	var obj = {};
 	var str = ""
@@ -208,7 +208,7 @@ function fns(o){
 }
 ```
 可是输出结果不正确，丢掉了一些key（已经遍历过的key），如下
-```[js]
+```js
 {
   a.b.c.dd: "abcdd"
   d.xx: "adxx"
@@ -216,7 +216,7 @@ function fns(o){
 }
 ```
 所以必须要找个地方把父母的key存起来，在递归的第二个参数存起来即可。
-```[js]
+```js
 function flatObj(obj, parentKey = "", result = {}) {
   for (const key in obj) {
     if (obj.hasOwnProperty(key)) {
