@@ -8,6 +8,7 @@
 
 ## vuex
 - [vuex的基本项目结构](./vuex)
+- [vuex-pathify的基本项目结构](./vuex-pathify)
 
 ## vue-cli
 
