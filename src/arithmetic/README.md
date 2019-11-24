@@ -13,7 +13,7 @@
 
 #### 1.简单难度
 - [001 - 两数之和](./LeetCode/twoSum.md)
-
+- [007 - 正数反转](./LeetCode/reverseInt.md)
 #### 2.中等难度
 
 #### 3.困难难度
