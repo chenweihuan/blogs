@@ -16,6 +16,7 @@
 - [007 - 正数反转](./LeetCode/reverseInt.md)
 - [009 - 回文数](./LeetCode/isPalindrome.md)
 - [013 - 罗马数字转整数](./LeetCode/RomanToInt.md)
+- [014 - 最长公共前缀](./LeetCode/longCommonPre.md)
 #### 2.中等难度
 
 #### 3.困难难度
