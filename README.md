@@ -2,9 +2,13 @@
 | :------------------: | :-------------------------------: | :--------------------------: | :------------------------------: | :--------------------------------: | :----------------------: | :----------------------: | :----------------------: |
 | [:memo:](#memo-HTML) | [:floppy_disk:](#floppy_disk-CSS) | [:cloud:](#cloud-Javascript) | [:wrench:](#wrench-前端构建工具) | [:video_game:](#video_game-小游戏) | [:hammer:](#hammer-框架) | [:smile:](#smile-每周算法) | [:briefcase:](#briefcase-数据库) |
 
+<br/>
+
 > ⭐️ 个人独白，记录学习经验，希望能改掉自己学完就扔的老毛病。  
 > :heart: 这也是记录读书笔记的好地方。   
 > :v: 日复一日，年复一年。请你坚持，哈哈哈。。。  
+
+<br/>
 
 ## :memo: HTML
 
@@ -31,9 +35,9 @@
   - [resolve解析](./src/builds-tools/webpack/webpack-config/resolve.md)
 
 - plugin
-  - [打包前清空dist目录 -- clean-webpack-plugin](./src/builds-tools/webpack/plugin/cleanWebpack.md)
+  - [打包前清空dist目录 -- clean-webpack-plugin](./src/builds-tools/webpack/plugin/cleanWebpack.md#安利插件----clean-webpack-plugin)
 - 知识小点
-  - [使用 Prettier格式化代码](./src/builds-tools/dot)
+  - [使用 Prettier格式化代码](./src/builds-tools/dot#使用-prettier格式化代码)
 
 ## :video_game: 小游戏
 
@@ -62,6 +66,7 @@
 
 - vue-cli
   - [通过环境变量设置publicPath](./src/vue/vue-cli/publicPath.md)
+  - [更多vue-cli3配置参考 - vue-cli3-config-reference](https://github.com/chenweihuan/vue-cli3-config-reference)
 
 - vue-router
   - [vue-router的使用方法](./src/vue/vue-router)
