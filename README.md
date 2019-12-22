@@ -24,7 +24,6 @@
 
 <details >
   <summary>1. webpack</summary> 
-  <br/>
   
   - 从零搭建webpack配置系列
     - [从零搭建webpack配置 - ES6](./src/builds-tools/webpack/es6)
@@ -49,7 +48,6 @@
 
 <details >
   <summary>1. phaser</summary> 
-  <br/>
   
   - [webpack + phaser-ce@2.11.0](./src/h5-game/phaser/webpack+phaser-ce)
   - [Phaser中的事件机制](./src/h5-game/phaser/event)
@@ -64,7 +62,6 @@
 
 <details >
   <summary>1. vue</summary> 
-  <br/>
   
   - vue基础
     - [简单的弹窗组件实现](./src/vue/vue/component.md)
@@ -93,7 +90,6 @@
   
 <details >
   <summary>2. React</summary> 
-  <br/>
   
   - react-redux
     - [如何安装Redux-DevTools](./src/React/Redux-DevTools.md)
@@ -105,7 +101,6 @@
 
 <details >
   <summary>1. Math</summary> 
-  <br/>
   
   - [斐波那契数列](./src/arithmetic/math/feibo.md)
   - [水仙花数](./src/arithmetic/math/daffodil.md)
