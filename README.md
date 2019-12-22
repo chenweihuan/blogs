@@ -98,6 +98,7 @@
   - [009 - 回文数](./src/arithmetic/LeetCode/isPalindrome.md)
   - [013 - 罗马数字转整数](./src/arithmetic/LeetCode/RomanToInt.md)
   - [014 - 最长公共前缀](./src/arithmetic/LeetCode/longCommonPre.md)
+  - [020 - 有效的括号](./src/arithmetic/LeetCode/ValidParentheses.md)
 - 中等难度
 
 - 困难难度
