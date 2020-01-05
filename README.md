@@ -123,6 +123,7 @@
   - [020 - 有效的括号](./src/arithmetic/LeetCode/ValidParentheses.md)
   - [021 - 合并两个有序链表](./src/arithmetic/LeetCode/MergeTwoSortedLists.md)
   - [026 - 删除排序数组中的重复项](./src/arithmetic/LeetCode/RemoveDuplicatesFromSortedArray.md)
+  - [027 - 移除元素](./src/arithmetic/LeetCode/RemoveElement.md)
 - 中等难度
 
 - 困难难度
