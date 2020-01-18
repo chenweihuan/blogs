@@ -125,6 +125,7 @@
   - [026 - 删除排序数组中的重复项](./src/arithmetic/LeetCode/RemoveDuplicatesFromSortedArray.md)
   - [027 - 移除元素](./src/arithmetic/LeetCode/RemoveElement.md)
   - [028 - 实现str()](./src/arithmetic/LeetCode/ImplementStrStr.md)
+  - [035 - 搜索插入位置](./src/arithmetic/LeetCode/SearchInsertPosition.md)
 - 中等难度
 
 - 困难难度
