@@ -31,6 +31,12 @@ var twoSum = function(nums, target) {
     return res
 };
 ```
+```
+执行结果：通过
+执行用时 :128 ms, 在所有 JavaScript 提交中击败了51.25%的用户
+内存消耗 :34.7 MB, 在所有 JavaScript 提交中击败了52.20%的用户
+```
+
 2. 使用indexOf替代第二个for循环  
 思路：既然第二个for循环是寻找```target-nums[i]```这个数，使用indexOf即可。  
 ```js
@@ -49,6 +55,11 @@ var twoSum = function(nums, target) {
 };
 ```
 注意：使用indexOf的第二个参数，跳过不需要检索的数组成员。  
+```
+执行结果：通过
+执行用时 :140 ms, 在所有 JavaScript 提交中击败了38.52%的用户
+内存消耗 :33.8 MB, 在所有 JavaScript 提交中击败了96.07%的用户
+```
 
 3. 使用map替代indexOf  
 思路：既然```target-nums[i]```这个数可以用indexOf找出，那么用map也可以的。而且使用map数据结构，检索速度比indexOf要快。
@@ -69,4 +80,9 @@ var twoSum = function(nums, target) {
       }
     }
 };
+```
+```
+执行结果：通过
+执行用时 :56 ms, 在所有 JavaScript 提交中击败了98.62%的用户
+内存消耗 :35 MB, 在所有 JavaScript 提交中击败了32.59%的用户
 ```
