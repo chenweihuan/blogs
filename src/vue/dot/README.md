@@ -15,3 +15,22 @@ watch(){
 }
 ```
 
+## disabled的input元素不会执行父组件的click事件
+先上代码：
+```html
+<div @click="test" style="width:400px;height:200px;border:1px solid;">
+  <input type="text" disabled/>
+</div>
+
+methods: {
+  test(e){
+    console.log(e)
+  }
+}
+```
+在谷歌浏览器中，点击input元素也会触发test事件；但是在火狐浏览器中，点击input元素并不会触发test事件。  
+解决方案：css添加pointer-events属性，让input元素不要成为鼠标事件的target。
+```html
+<input type="text" disabled style="pointer-events: none"/>
+```
+

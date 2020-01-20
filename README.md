@@ -85,6 +85,7 @@
   - 知识小点
     - [给 router-link 绑定事件](./src/vue/dot/README.md#给router-link绑定事件)
     - [监听route的变化](./src/vue/dot/README.md#监听route的变化)
+    - [在火狐浏览器中，disabled的input元素不会执行父组件的click事件](./src/vue/dot/README.md#disabled的input元素不会执行父组件的click事件)
   
 </details >
   
