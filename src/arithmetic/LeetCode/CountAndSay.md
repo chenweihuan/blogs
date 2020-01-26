@@ -32,7 +32,7 @@
 来源：[力扣（LeetCode）](https://leetcode-cn.com/problems/count-and-say)
 
 ### 解
-1. 递归
+1. 递归  
 解法类似与斐波数列，f(n) = fn(f(n-1))，fn函数是固定的。假设f(n-1)是已知的，通过fn函数对f(n-1)做处理即可。
 ```js
 /**
