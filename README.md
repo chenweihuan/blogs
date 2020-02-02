@@ -128,6 +128,7 @@
   - [028 - 实现str()](./src/arithmetic/LeetCode/ImplementStrStr.md)
   - [035 - 搜索插入位置](./src/arithmetic/LeetCode/SearchInsertPosition.md)
   - [038 - 外观数列](./src/arithmetic/LeetCode/CountAndSay.md)
+  - [053 - 最大子序和](./src/arithmetic/LeetCode/MaximumSubarray.md)
 - 中等难度
 
 - 困难难度
