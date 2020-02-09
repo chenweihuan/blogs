@@ -31,6 +31,6 @@ var maxSubArray = function (nums) {
 ```
 ```
 执行结果：通过
-执行用时 :56 ms, 在所有 JavaScript 提交中击败了99.05%
+执行用时 :56 ms, 在所有 JavaScript 提交中击败了99.05%的用户
 内存消耗 :34.9MB, 在所有 JavaScript 提交中击败了90.08%的用户
 ```
