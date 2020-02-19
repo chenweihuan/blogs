@@ -70,6 +70,7 @@
     - [基础组件的自动化全局注册](./src/vue/vue-component)
     - [全局过滤器注册](./src/vue/dot/filter.md)
     - [实现防抖/节流HOC](./src/vue/dot/throttle.md)
+    - [实现弹出窗popover](./src/vue/dot/popover.md)
 
   - vuex
     - [vuex的基本项目结构](./src/vue/vuex)
