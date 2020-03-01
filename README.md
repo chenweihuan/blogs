@@ -133,6 +133,7 @@
   - [058  - 最后一个单词的长度](./src/arithmetic/LeetCode/LengthLastWord.md)
   - [066 - 加一](./src/arithmetic/LeetCode/PlusOne.md)
   - [067 - 二进制求和](./src/arithmetic/LeetCode/AddBinary.md)
+  - [069 - x 的平方根](./src/arithmetic/LeetCode/Sqrt(x).md)
 - 中等难度
 
 - 困难难度
