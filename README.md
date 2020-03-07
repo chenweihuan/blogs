@@ -135,6 +135,7 @@
   - [067 - 二进制求和](./src/arithmetic/LeetCode/AddBinary.md)
   - [069 - x 的平方根](./src/arithmetic/LeetCode/Sqrt(x).md)
   - [070 - 爬楼梯](./src/arithmetic/LeetCode/ClimbingStairs.md)
+  - [088 - 合并两个有序数组](./src/arithmetic/LeetCode/MergeSortedArray.md)
 - 中等难度
 
 - 困难难度
