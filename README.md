@@ -1,6 +1,6 @@
-|         HTML         |                CSS                |          Javascript          |           前端构建工具           |               小游戏               |           框架           |           每周算法           |           数据库          |           学习笔记          |
+|           每周算法           |         HTML         |                CSS                |          Javascript          |           前端构建工具           |               小游戏               |           框架           |           数据库          |           学习笔记          |
 | :------------------: | :-------------------------------: | :--------------------------: | :------------------------------: | :--------------------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: |
-| [:memo:](#memo-HTML) | [:floppy_disk:](#floppy_disk-CSS) | [:cloud:](#cloud-Javascript) | [:wrench:](#wrench-前端构建工具) | [:video_game:](#video_game-小游戏) | [:hammer:](#hammer-框架) | [:smile:](#smile-每周算法) | [:briefcase:](#briefcase-数据库) | [ :zap: ](#zap-学习笔记) |
+| [:smile:](#smile-每周算法) | [:memo:](#memo-HTML) | [:floppy_disk:](#floppy_disk-CSS) | [:cloud:](#cloud-Javascript) | [:wrench:](#wrench-前端构建工具) | [:video_game:](#video_game-小游戏) | [:hammer:](#hammer-框架) | [:briefcase:](#briefcase-数据库) | [ :zap: ](#zap-学习笔记) |
 
 <br/>
 
@@ -9,6 +9,52 @@
 > :v: 日复一日，年复一年。请你坚持，哈哈哈。。。  
 
 <br/>
+
+## :smile: 每周算法
+
+#### 1. LeetCode
+
+> 记录解题思路，培养编程的意识  
+> 大致方向按tag走，tag里按难易程度走，重点是思维，举一反三  
+
+- 树
+  - [100 - 相同的树](./src/arithmetic/LeetCode/tree/SameTree.md)
+
+
+- 简单难度
+  - [001 - 两数之和](./src/arithmetic/LeetCode/twoSum.md)
+  - [007 - 正数反转](./src/arithmetic/LeetCode/reverseInt.md)
+  - [009 - 回文数](./src/arithmetic/LeetCode/isPalindrome.md)
+  - [013 - 罗马数字转整数](./src/arithmetic/LeetCode/RomanToInt.md)
+  - [014 - 最长公共前缀](./src/arithmetic/LeetCode/longCommonPre.md)
+  - [020 - 有效的括号](./src/arithmetic/LeetCode/ValidParentheses.md)
+  - [021 - 合并两个有序链表](./src/arithmetic/LeetCode/MergeTwoSortedLists.md)
+  - [026 - 删除排序数组中的重复项](./src/arithmetic/LeetCode/RemoveDuplicatesFromSortedArray.md)
+  - [027 - 移除元素](./src/arithmetic/LeetCode/RemoveElement.md)
+  - [028 - 实现str()](./src/arithmetic/LeetCode/ImplementStrStr.md)
+  - [035 - 搜索插入位置](./src/arithmetic/LeetCode/SearchInsertPosition.md)
+  - [038 - 外观数列](./src/arithmetic/LeetCode/CountAndSay.md)
+  - [053 - 最大子序和](./src/arithmetic/LeetCode/MaximumSubarray.md)
+  - [058  - 最后一个单词的长度](./src/arithmetic/LeetCode/LengthLastWord.md)
+  - [066 - 加一](./src/arithmetic/LeetCode/PlusOne.md)
+  - [067 - 二进制求和](./src/arithmetic/LeetCode/AddBinary.md)
+  - [069 - x 的平方根](./src/arithmetic/LeetCode/Sqrt(x).md)
+  - [070 - 爬楼梯](./src/arithmetic/LeetCode/ClimbingStairs.md)
+  - [088 - 合并两个有序数组](./src/arithmetic/LeetCode/MergeSortedArray.md)
+- 中等难度
+
+- 困难难度
+
+<details >
+  <summary>2. Math</summary> 
+  
+  - [斐波那契数列](./src/arithmetic/math/feibo.md)
+  - [水仙花数](./src/arithmetic/math/daffodil.md)
+  - [杨辉三角](./src/arithmetic/math/three.md)
+  - [找到100以内的质数](./src/arithmetic/math/primeNum.md)
+  - [实现九九乘法表](./src/arithmetic/math/nine.md)
+    
+</details >
 
 ## :memo: HTML
 
@@ -98,47 +144,6 @@
     - [react-redux的使用和基本项目机构](./src/React/react-redux)
     
 </details >
-
-## :smile: 每周算法
-
-<details >
-  <summary>1. Math</summary> 
-  
-  - [斐波那契数列](./src/arithmetic/math/feibo.md)
-  - [水仙花数](./src/arithmetic/math/daffodil.md)
-  - [杨辉三角](./src/arithmetic/math/three.md)
-  - [找到100以内的质数](./src/arithmetic/math/primeNum.md)
-  - [实现九九乘法表](./src/arithmetic/math/nine.md)
-    
-</details >
-
-#### 2. LeetCode
-
-> 记录解题思路，培养编程的意识  
-
-- 简单难度
-  - [001 - 两数之和](./src/arithmetic/LeetCode/twoSum.md)
-  - [007 - 正数反转](./src/arithmetic/LeetCode/reverseInt.md)
-  - [009 - 回文数](./src/arithmetic/LeetCode/isPalindrome.md)
-  - [013 - 罗马数字转整数](./src/arithmetic/LeetCode/RomanToInt.md)
-  - [014 - 最长公共前缀](./src/arithmetic/LeetCode/longCommonPre.md)
-  - [020 - 有效的括号](./src/arithmetic/LeetCode/ValidParentheses.md)
-  - [021 - 合并两个有序链表](./src/arithmetic/LeetCode/MergeTwoSortedLists.md)
-  - [026 - 删除排序数组中的重复项](./src/arithmetic/LeetCode/RemoveDuplicatesFromSortedArray.md)
-  - [027 - 移除元素](./src/arithmetic/LeetCode/RemoveElement.md)
-  - [028 - 实现str()](./src/arithmetic/LeetCode/ImplementStrStr.md)
-  - [035 - 搜索插入位置](./src/arithmetic/LeetCode/SearchInsertPosition.md)
-  - [038 - 外观数列](./src/arithmetic/LeetCode/CountAndSay.md)
-  - [053 - 最大子序和](./src/arithmetic/LeetCode/MaximumSubarray.md)
-  - [058  - 最后一个单词的长度](./src/arithmetic/LeetCode/LengthLastWord.md)
-  - [066 - 加一](./src/arithmetic/LeetCode/PlusOne.md)
-  - [067 - 二进制求和](./src/arithmetic/LeetCode/AddBinary.md)
-  - [069 - x 的平方根](./src/arithmetic/LeetCode/Sqrt(x).md)
-  - [070 - 爬楼梯](./src/arithmetic/LeetCode/ClimbingStairs.md)
-  - [088 - 合并两个有序数组](./src/arithmetic/LeetCode/MergeSortedArray.md)
-- 中等难度
-
-- 困难难度
 
 ## :briefcase: 数据库
 
