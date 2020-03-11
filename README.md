@@ -20,7 +20,7 @@
 - 树
   - [100 - 相同的树](./src/arithmetic/LeetCode/tree/SameTree.md)
   - [101 - 对称二叉树](./src/arithmetic/LeetCode/tree/SymmetricTree.md)
-
+  - [104 - 二叉树的最大深度](./src/arithmetic/LeetCode/tree/MaximumDepthBinaryTree.md)
 
 - 简单难度
   - [001 - 两数之和](./src/arithmetic/LeetCode/twoSum.md)
