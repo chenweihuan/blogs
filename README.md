@@ -23,6 +23,8 @@
   - [104 - 二叉树的最大深度](./src/arithmetic/LeetCode/tree/MaximumDepthBinaryTree.md)
   - [107 - 二叉树的层次遍历 II](./src/arithmetic/LeetCode/tree/BinaryTreeLevelOrderTraversal.md)
   - [110 - 平衡二叉树](./src/arithmetic/LeetCode/tree/BalancedBinaryTree.md)
+  - [111 - 二叉树的最小深度](./src/arithmetic/LeetCode/tree/MinimumDepthBinaryTree.md)
+  - [112 - 路经总和](./src/arithmetic/LeetCode/tree/PathSum.md)
 
 - 简单难度
   - [001 - 两数之和](./src/arithmetic/LeetCode/twoSum.md)
