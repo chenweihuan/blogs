@@ -32,6 +32,9 @@
   - [404 - 左叶子之和](./src/arithmetic/LeetCode/tree/SumLeftLeaves.md)
   - [437 - 路径总和 III](./src/arithmetic/LeetCode/tree/PathSumIII.md)
   - [501 - 二叉搜索树中的众数](./src/arithmetic/LeetCode/tree/FindModeBinarySearchTree.md)
+  - [530 - 二叉搜索树的最小绝对差](./src/arithmetic/LeetCode/tree/MinimumAbsoluteDifferenceBST.md)
+  - [538 - 把二叉搜索树转换为累加树](./src/arithmetic/LeetCode/tree/ConvertBSTGreaterTree.md)
+  - [543 - 二叉树的直径](./src/arithmetic/LeetCode/tree/DiameterBinaryTree.md)
 
 - 简单难度
   - [001 - 两数之和](./src/arithmetic/LeetCode/twoSum.md)
