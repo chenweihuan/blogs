@@ -35,6 +35,9 @@
   - [530 - 二叉搜索树的最小绝对差](./src/arithmetic/LeetCode/tree/MinimumAbsoluteDifferenceBST.md)
   - [538 - 把二叉搜索树转换为累加树](./src/arithmetic/LeetCode/tree/ConvertBSTGreaterTree.md)
   - [543 - 二叉树的直径](./src/arithmetic/LeetCode/tree/DiameterBinaryTree.md)
+  - [559 - N叉树的最大深度](./src/arithmetic/LeetCode/tree/MaximumDepthN-aryTree.md)
+  - [563 - 二叉树的坡度](./src/arithmetic/LeetCode/tree/BinaryTreeTilt.md)
+  - [572 - 另一个树的子树](./src/arithmetic/LeetCode/tree/SubtreeAnotherTree.md)
 
 - 简单难度
   - [001 - 两数之和](./src/arithmetic/LeetCode/twoSum.md)
