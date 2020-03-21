@@ -38,6 +38,8 @@
   - [559 - N叉树的最大深度](./src/arithmetic/LeetCode/tree/MaximumDepthN-aryTree.md)
   - [563 - 二叉树的坡度](./src/arithmetic/LeetCode/tree/BinaryTreeTilt.md)
   - [572 - 另一个树的子树](./src/arithmetic/LeetCode/tree/SubtreeAnotherTree.md)
+  - [589 - N叉树的前序遍历](./src/arithmetic/LeetCode/tree/N-aryTreePreorderTraversal.md)
+  - [590 - N叉树的后序遍历](./src/arithmetic/LeetCode/tree/N-aryTreePostorderTraversal.md)
 
 - 简单难度
   - [001 - 两数之和](./src/arithmetic/LeetCode/twoSum.md)
