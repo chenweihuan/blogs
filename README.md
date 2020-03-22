@@ -40,7 +40,9 @@
   - [572 - 另一个树的子树](./src/arithmetic/LeetCode/tree/SubtreeAnotherTree.md)
   - [589 - N叉树的前序遍历](./src/arithmetic/LeetCode/tree/N-aryTreePreorderTraversal.md)
   - [590 - N叉树的后序遍历](./src/arithmetic/LeetCode/tree/N-aryTreePostorderTraversal.md)
-  - [606 - 根据二叉树创建字符串](./src/arithmetic/LeetCode/tree/N-ConstructStringBinaryTree.md)
+  - [606 - 根据二叉树创建字符串](./src/arithmetic/LeetCode/tree/ConstructStringBinaryTree.md)
+  - [617 - 合并二叉树](./src/arithmetic/LeetCode/tree/MergeTwoBinaryTrees.md)
+  - [637 - 二叉树的层平均值](./src/arithmetic/LeetCode/tree/AverageLevelsBinaryTree.md)
 
 <details >
   <summary>2. 简单难度</summary> 
