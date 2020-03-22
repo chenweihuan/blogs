@@ -40,8 +40,11 @@
   - [572 - 另一个树的子树](./src/arithmetic/LeetCode/tree/SubtreeAnotherTree.md)
   - [589 - N叉树的前序遍历](./src/arithmetic/LeetCode/tree/N-aryTreePreorderTraversal.md)
   - [590 - N叉树的后序遍历](./src/arithmetic/LeetCode/tree/N-aryTreePostorderTraversal.md)
+  - [606 - 根据二叉树创建字符串](./src/arithmetic/LeetCode/tree/N-ConstructStringBinaryTree.md)
 
-- 简单难度
+<details >
+  <summary>2. 简单难度</summary> 
+
   - [001 - 两数之和](./src/arithmetic/LeetCode/twoSum.md)
   - [007 - 正数反转](./src/arithmetic/LeetCode/reverseInt.md)
   - [009 - 回文数](./src/arithmetic/LeetCode/isPalindrome.md)
@@ -61,12 +64,11 @@
   - [069 - x 的平方根](./src/arithmetic/LeetCode/Sqrt(x).md)
   - [070 - 爬楼梯](./src/arithmetic/LeetCode/ClimbingStairs.md)
   - [088 - 合并两个有序数组](./src/arithmetic/LeetCode/MergeSortedArray.md)
-- 中等难度
-
-- 困难难度
+    
+</details >
 
 <details >
-  <summary>2. Math</summary> 
+  <summary>3. Math</summary> 
   
   - [斐波那契数列](./src/arithmetic/math/feibo.md)
   - [水仙花数](./src/arithmetic/math/daffodil.md)
