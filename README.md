@@ -43,6 +43,15 @@
   - [606 - 根据二叉树创建字符串](./src/arithmetic/LeetCode/tree/ConstructStringBinaryTree.md)
   - [617 - 合并二叉树](./src/arithmetic/LeetCode/tree/MergeTwoBinaryTrees.md)
   - [637 - 二叉树的层平均值](./src/arithmetic/LeetCode/tree/AverageLevelsBinaryTree.md)
+  - [653 - 两数之和 IV - 输入 BST](./src/arithmetic/LeetCode/tree/TwoSumIVInputBST.md)
+  - [669 - 修剪二叉搜索树](./src/arithmetic/LeetCode/tree/TrimBinarySearchTree.md)
+  - [671 - 二叉树中第二小的节点](./src/arithmetic/LeetCode/tree/SecondMinimumNodeBinaryTree.md)
+  - [687 - 最长同值路径](./src/arithmetic/LeetCode/tree/LongestUnivaluePath.md)
+  - [783 - 二叉搜索树结点最小距离](./src/arithmetic/LeetCode/tree/MinimumDistanceBetweenBSTNodes.md)
+  - [872 - 叶子相似的树](./src/arithmetic/LeetCode/tree/LeafSimilarTrees.md)
+  - [897 - 递增顺序查找树](./src/arithmetic/LeetCode/tree/IncreasingOrderSearchTree.md)
+  - [938 - 二叉搜索树的范围和](./src/arithmetic/LeetCode/tree/RangeSumBST.md)
+  - [965 - 单值二叉树](./src/arithmetic/LeetCode/tree/UnivaluedBinaryTree.md)
 
 <details >
   <summary>2. 简单难度</summary> 
