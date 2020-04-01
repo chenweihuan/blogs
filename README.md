@@ -21,12 +21,12 @@
 <details >
   <summary>简单难度</summary> 
 
-  - [100 - 相同的树](./src/arithmetic/LeetCode/tree/SameTree.md)
-  - [101 - 对称二叉树](./src/arithmetic/LeetCode/tree/SymmetricTree.md)
-  - [104 - 二叉树的最大深度](./src/arithmetic/LeetCode/tree/MaximumDepthBinaryTree.md)
+  - [100 - 相同的树](./src/arithmetic/LeetCode/tree/SameTree.md) :heavy_exclamation_mark:
+  - [101 - 对称二叉树](./src/arithmetic/LeetCode/tree/SymmetricTree.md) :heavy_exclamation_mark:
+  - [104 - 二叉树的最大深度](./src/arithmetic/LeetCode/tree/MaximumDepthBinaryTree.md) :heavy_exclamation_mark:
   - [107 - 二叉树的层次遍历 II](./src/arithmetic/LeetCode/tree/BinaryTreeLevelOrderTraversal.md)
   - [108 - 将有序数组转换为二叉搜索树](./src/arithmetic/LeetCode/tree/ConvertSortedArrayBinarySearchTree.md)
-  - [110 - 平衡二叉树](./src/arithmetic/LeetCode/tree/BalancedBinaryTree.md)
+  - [110 - 平衡二叉树](./src/arithmetic/LeetCode/tree/BalancedBinaryTree.md) :heavy_exclamation_mark:
   - [111 - 二叉树的最小深度](./src/arithmetic/LeetCode/tree/MinimumDepthBinaryTree.md)
   - [112 - 路经总和](./src/arithmetic/LeetCode/tree/PathSum.md)
   - [226 - 翻转二叉树](./src/arithmetic/LeetCode/tree/InvertBinaryTree.md)
