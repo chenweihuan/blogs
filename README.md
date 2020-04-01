@@ -12,12 +12,15 @@
 
 ## :smile: 每周算法
 
-#### 1. LeetCode
+### 1. LeetCode
 
 > 记录解题思路，培养编程的意识  
 > 大致方向按tag走，tag里按难易程度走，重点是思维，举一反三  
 
-- 树
+### （1）树
+<details >
+  <summary>简单难度</summary> 
+
   - [100 - 相同的树](./src/arithmetic/LeetCode/tree/SameTree.md)
   - [101 - 对称二叉树](./src/arithmetic/LeetCode/tree/SymmetricTree.md)
   - [104 - 二叉树的最大深度](./src/arithmetic/LeetCode/tree/MaximumDepthBinaryTree.md)
@@ -55,7 +58,17 @@
   - [993 - 二叉树的堂兄弟节点](./src/arithmetic/LeetCode/tree/CousinsBinaryTree.md)
   - [1022 - 从根到叶的二进制数之和](./src/arithmetic/LeetCode/tree/SumRootLeafBinaryNumbers.md)
 
-<details >
+</details >
+
+<details open>
+  <summary>中等难度</summary>
+
+  - [94 - 二叉树的中序遍历](./src/arithmetic/LeetCode/tree/BinaryTreeInorderTraversal.md) :heavy_exclamation_mark:
+  - [98 - 验证二叉搜索树](./src/arithmetic/LeetCode/tree/ValidateBinarySearchTree.md) :heavy_exclamation_mark:
+
+</details >
+
+<!-- <details >
   <summary>2. 简单难度</summary> 
 
   - [001 - 两数之和](./src/arithmetic/LeetCode/twoSum.md)
@@ -89,7 +102,7 @@
   - [找到100以内的质数](./src/arithmetic/math/primeNum.md)
   - [实现九九乘法表](./src/arithmetic/math/nine.md)
     
-</details >
+</details > -->
 
 ## :memo: HTML
 
