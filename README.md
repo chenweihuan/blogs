@@ -65,6 +65,8 @@
 
   - [94 - 二叉树的中序遍历](./src/arithmetic/LeetCode/tree/BinaryTreeInorderTraversal.md) :heavy_exclamation_mark:
   - [98 - 验证二叉搜索树](./src/arithmetic/LeetCode/tree/ValidateBinarySearchTree.md) :heavy_exclamation_mark:
+  - [102 - 二叉树的层序遍历](./src/arithmetic/LeetCode/tree/BinaryTreeLevelOrderTraversalI.md) :heavy_exclamation_mark:
+  - [144 - 二叉树的前序遍历](./src/arithmetic/LeetCode/tree/BinaryTreePreorderTraversal.md) :heavy_exclamation_mark:
 
 </details >
 
