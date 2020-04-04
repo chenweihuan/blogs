@@ -17,9 +17,8 @@
 > 记录解题思路，培养编程的意识  
 > 大致方向按tag走，tag里按难易程度走，重点是思维，举一反三  
 
-### （1）树
-<details >
-  <summary>简单难度</summary> 
+<details open>
+  <summary>（1）树</summary> 
 
   - [100 - 相同的树](./src/arithmetic/LeetCode/tree/SameTree.md) :heavy_exclamation_mark:
   - [101 - 对称二叉树](./src/arithmetic/LeetCode/tree/SymmetricTree.md) :heavy_exclamation_mark:
@@ -57,18 +56,17 @@
   - [965 - 单值二叉树](./src/arithmetic/LeetCode/tree/UnivaluedBinaryTree.md)
   - [993 - 二叉树的堂兄弟节点](./src/arithmetic/LeetCode/tree/CousinsBinaryTree.md)
   - [1022 - 从根到叶的二进制数之和](./src/arithmetic/LeetCode/tree/SumRootLeafBinaryNumbers.md)
+  - [94 - 二叉树的中序遍历(中等)](./src/arithmetic/LeetCode/tree/BinaryTreeInorderTraversal.md) :heavy_exclamation_mark:
+  - [98 - 验证二叉搜索树(中等)](./src/arithmetic/LeetCode/tree/ValidateBinarySearchTree.md) :heavy_exclamation_mark:
+  - [102 - 二叉树的层序遍历(中等)](./src/arithmetic/LeetCode/tree/BinaryTreeLevelOrderTraversalI.md) :heavy_exclamation_mark:
+  - [105 - 从前序与中序遍历序列构造二叉树(中等)](./src/arithmetic/LeetCode/tree/ConstructBinaryTreefromPreorderInorderTraversal.md) :heavy_exclamation_mark:
+  - [106 - 从中序与后序遍历序列构造二叉树(中等)](./src/arithmetic/LeetCode/tree/ConstructBinaryTreefromInorderandPostorderTraversal.md)
+  - [144 - 二叉树的前序遍历(中等)](./src/arithmetic/LeetCode/tree/BinaryTreePreorderTraversal.md) :heavy_exclamation_mark:
+  - [145 - 二叉树的后序遍历(困难)](./src/arithmetic/LeetCode/tree/BinaryTreePostorderTraversal.md) :heavy_exclamation_mark:
+  - [889 - 根据前序和后序遍历构造二叉树(中等)](./src/arithmetic/LeetCode/tree/ConstructBinaryTreefromPreorderPostorderTraversal.md)
 
 </details >
 
-<details open>
-  <summary>中等难度</summary>
-
-  - [94 - 二叉树的中序遍历](./src/arithmetic/LeetCode/tree/BinaryTreeInorderTraversal.md) :heavy_exclamation_mark:
-  - [98 - 验证二叉搜索树](./src/arithmetic/LeetCode/tree/ValidateBinarySearchTree.md) :heavy_exclamation_mark:
-  - [102 - 二叉树的层序遍历](./src/arithmetic/LeetCode/tree/BinaryTreeLevelOrderTraversalI.md) :heavy_exclamation_mark:
-  - [144 - 二叉树的前序遍历](./src/arithmetic/LeetCode/tree/BinaryTreePreorderTraversal.md) :heavy_exclamation_mark:
-
-</details >
 
 <!-- <details >
   <summary>2. 简单难度</summary> 
