@@ -17,7 +17,7 @@
 > 记录解题思路，培养编程的意识  
 > 大致方向按tag走，tag里按难易程度走，重点是思维，举一反三  
 
-<details open>
+<details>
   <summary>（1）树（20.03.08 ~ 20.04.03）</summary> 
 
   - [100 - 相同的树](./src/arithmetic/LeetCode/tree/SameTree.md) :heavy_exclamation_mark:
@@ -67,7 +67,7 @@
 
 </details >
 
-<details>
+<details open>
   <summary>（2）数组（2020-04-04 ~ now）</summary>
 
   - [001 - 两数之和](./src/arithmetic/LeetCode/array/twoSum.md) :heavy_exclamation_mark:
