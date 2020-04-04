@@ -18,7 +18,7 @@
 > 大致方向按tag走，tag里按难易程度走，重点是思维，举一反三  
 
 <details open>
-  <summary>（1）树(20.03.08 ~ 20.04.03)</summary> 
+  <summary>（1）树（20.03.08 ~ 20.04.03）</summary> 
 
   - [100 - 相同的树](./src/arithmetic/LeetCode/tree/SameTree.md) :heavy_exclamation_mark:
   - [101 - 对称二叉树](./src/arithmetic/LeetCode/tree/SymmetricTree.md) :heavy_exclamation_mark:
@@ -67,29 +67,40 @@
 
 </details >
 
+<details>
+  <summary>（2）数组（2020-04-04 ~ now）</summary>
+
+  - [001 - 两数之和](./src/arithmetic/LeetCode/array/twoSum.md) :heavy_exclamation_mark:
+  - [026 - 删除排序数组中的重复项](./src/arithmetic/LeetCode/array/RemoveDuplicatesFromSortedArray.md)
+  - [027 - 移除元素](./src/arithmetic/LeetCode/array/RemoveElement.md)
+  - [035 - 搜索插入位置](./src/arithmetic/LeetCode/array/SearchInsertPosition.md)
+  - [053 - 最大子序和](./src/arithmetic/LeetCode/array/MaximumSubarray.md) :heavy_exclamation_mark:
+  - [066 - 加一](./src/arithmetic/LeetCode/array/PlusOne.md)
+  - [088 - 合并两个有序数组](./src/arithmetic/LeetCode/array/MergeSortedArray.md) :heavy_exclamation_mark:
+  - [118 - 杨辉三角](./src/arithmetic/LeetCode/array/Pascal'sTriangle.md) :heavy_exclamation_mark:
+
+</details>
+
+<details>
+  <summary>（3）字符串，链表，数学，排序（todo）</summary>
+
+</details>
 
 <!-- <details >
   <summary>2. 简单难度</summary> 
 
-  - [001 - 两数之和](./src/arithmetic/LeetCode/twoSum.md)
   - [007 - 正数反转](./src/arithmetic/LeetCode/reverseInt.md)
   - [009 - 回文数](./src/arithmetic/LeetCode/isPalindrome.md)
   - [013 - 罗马数字转整数](./src/arithmetic/LeetCode/RomanToInt.md)
   - [014 - 最长公共前缀](./src/arithmetic/LeetCode/longCommonPre.md)
   - [020 - 有效的括号](./src/arithmetic/LeetCode/ValidParentheses.md)
   - [021 - 合并两个有序链表](./src/arithmetic/LeetCode/MergeTwoSortedLists.md)
-  - [026 - 删除排序数组中的重复项](./src/arithmetic/LeetCode/RemoveDuplicatesFromSortedArray.md)
-  - [027 - 移除元素](./src/arithmetic/LeetCode/RemoveElement.md)
   - [028 - 实现str()](./src/arithmetic/LeetCode/ImplementStrStr.md)
-  - [035 - 搜索插入位置](./src/arithmetic/LeetCode/SearchInsertPosition.md)
   - [038 - 外观数列](./src/arithmetic/LeetCode/CountAndSay.md)
-  - [053 - 最大子序和](./src/arithmetic/LeetCode/MaximumSubarray.md)
   - [058  - 最后一个单词的长度](./src/arithmetic/LeetCode/LengthLastWord.md)
-  - [066 - 加一](./src/arithmetic/LeetCode/PlusOne.md)
   - [067 - 二进制求和](./src/arithmetic/LeetCode/AddBinary.md)
   - [069 - x 的平方根](./src/arithmetic/LeetCode/Sqrt(x).md)
   - [070 - 爬楼梯](./src/arithmetic/LeetCode/ClimbingStairs.md)
-  - [088 - 合并两个有序数组](./src/arithmetic/LeetCode/MergeSortedArray.md)
     
 </details >
 

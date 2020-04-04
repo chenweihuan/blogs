@@ -43,3 +43,27 @@ var removeElement = function (nums, val) {
 执行用时 : 68 ms , 在所有 JavaScript 提交中击败了 55.49% 的用户
 内存消耗 : 34.2 MB , 在所有 JavaScript 提交中击败了 5.04% 的用户
 ```
+
+2. 双指针
+```js
+/**
+ * @param {number[]} nums
+ * @param {number} val
+ * @return {number}
+ */
+var removeElement = function(nums, val) {
+    let i = 0
+    for(let j=0;j<nums.length;j++){
+        if(val !== nums[j]){
+            nums[i] = nums[j]
+            i++
+        }
+    }
+    return i
+};
+```
+```
+执行结果：通过
+执行用时 :64 ms, 在所有 JavaScript 提交中击败了76.56%的用户
+内存消耗 :33.8 MB, 在所有 JavaScript 提交中击败了85.89%的用户
+```
