@@ -78,6 +78,9 @@
   - [066 - 加一](./src/arithmetic/LeetCode/array/PlusOne.md)
   - [088 - 合并两个有序数组](./src/arithmetic/LeetCode/array/MergeSortedArray.md) :heavy_exclamation_mark:
   - [118 - 杨辉三角](./src/arithmetic/LeetCode/array/Pascal'sTriangle.md) :heavy_exclamation_mark:
+  - [119 - 杨辉三角 II](./src/arithmetic/LeetCode/array/Pascal'sTriangleII.md)
+  - [121 - 买卖股票的最佳时机](./src/arithmetic/LeetCode/array/BestTimeBuyandSellStock.md) :heavy_exclamation_mark:
+  - [122 - 买卖股票的最佳时机 II](./src/arithmetic/LeetCode/array/BestTimetoBuyandSellStockII.md) :heavy_exclamation_mark:
 
 </details>
 
