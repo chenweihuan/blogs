@@ -81,6 +81,7 @@
   - [119 - 杨辉三角 II](./src/arithmetic/LeetCode/array/Pascal'sTriangleII.md)
   - [121 - 买卖股票的最佳时机](./src/arithmetic/LeetCode/array/BestTimeBuyandSellStock.md) :heavy_exclamation_mark:
   - [122 - 买卖股票的最佳时机 II](./src/arithmetic/LeetCode/array/BestTimetoBuyandSellStockII.md) :heavy_exclamation_mark:
+  - [167 - 两数之和 II - 输入有序数组](./src/arithmetic/LeetCode/array/TwoSumIIInputarrayissorted.md)
 
 </details>
 
