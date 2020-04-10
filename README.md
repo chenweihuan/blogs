@@ -82,6 +82,11 @@
   - [121 - 买卖股票的最佳时机](./src/arithmetic/LeetCode/array/BestTimeBuyandSellStock.md) :heavy_exclamation_mark:
   - [122 - 买卖股票的最佳时机 II](./src/arithmetic/LeetCode/array/BestTimetoBuyandSellStockII.md) :heavy_exclamation_mark:
   - [167 - 两数之和 II - 输入有序数组](./src/arithmetic/LeetCode/array/TwoSumIIInputarrayissorted.md)
+  - [169 - 多数元素](./src/arithmetic/LeetCode/array/MajorityElement.md)
+  - [189 - 旋转数组](./src/arithmetic/LeetCode/array/RotateArray.md)
+  - [217 - 存在重复元素](./src/arithmetic/LeetCode/array/ContainsDuplicate.md)
+  - [219 - 存在重复元素 II](./src/arithmetic/LeetCode/array/ContainsDuplicateII.md)
+  - [1287 - 有序数组中出现次数超过25%的元素](./src/arithmetic/LeetCode/array/ElementAppearingMoreThan25%InSortedArray.md)
 
 </details>
 
