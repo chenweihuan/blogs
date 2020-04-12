@@ -84,10 +84,12 @@
   - [167 - 两数之和 II - 输入有序数组](./src/arithmetic/LeetCode/array/TwoSumIIInputarrayissorted.md)
   - [169 - 多数元素](./src/arithmetic/LeetCode/array/MajorityElement.md)
   - [189 - 旋转数组](./src/arithmetic/LeetCode/array/RotateArray.md)
+  - [215 - 数组中的第K个最大元素(中等)](./src/arithmetic/LeetCode/array/KthLargestElementArray.md) :heavy_exclamation_mark:
   - [217 - 存在重复元素](./src/arithmetic/LeetCode/array/ContainsDuplicate.md)
   - [219 - 存在重复元素 II](./src/arithmetic/LeetCode/array/ContainsDuplicateII.md)
   - [268 - 缺失数字](./src/arithmetic/LeetCode/array/MissingNumber.md)
   - [283 - 移动零](./src/arithmetic/LeetCode/array/MoveZeroes.md)
+  - [414 - 第三大的数](./src/arithmetic/LeetCode/array/ThirdMaximumNumber.md)
   - [1287 - 有序数组中出现次数超过25%的元素](./src/arithmetic/LeetCode/array/ElementAppearingMoreThan25%25InSortedArray.md)
 
 </details>
