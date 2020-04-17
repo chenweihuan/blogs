@@ -90,6 +90,11 @@
   - [268 - 缺失数字](./src/arithmetic/LeetCode/array/MissingNumber.md)
   - [283 - 移动零](./src/arithmetic/LeetCode/array/MoveZeroes.md)
   - [414 - 第三大的数](./src/arithmetic/LeetCode/array/ThirdMaximumNumber.md)
+  - [448 - 找到所有数组中消失的数字](./src/arithmetic/LeetCode/array/FindAllNumbersDisappearedArray.md)
+  - [485 - 最大连续1的个数](./src/arithmetic/LeetCode/array/MaxConsecutiveOnes.md)
+  - [509 - 斐波那契数](./src/arithmetic/LeetCode/array/FibonacciNumber.md) :heavy_exclamation_mark:
+  - [532 - 数组中的K-diff数对](./src/arithmetic/LeetCode/array/K-diffPairsArray.md) :heavy_exclamation_mark:
+  - [561 - 数组拆分 I](./src/arithmetic/LeetCode/array/ArrayPartitionI.md)
   - [1287 - 有序数组中出现次数超过25%的元素](./src/arithmetic/LeetCode/array/ElementAppearingMoreThan25%25InSortedArray.md)
 
 </details>
