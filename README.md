@@ -95,6 +95,8 @@
   - [509 - 斐波那契数](./src/arithmetic/LeetCode/array/FibonacciNumber.md) :heavy_exclamation_mark:
   - [532 - 数组中的K-diff数对](./src/arithmetic/LeetCode/array/K-diffPairsArray.md) :heavy_exclamation_mark:
   - [561 - 数组拆分 I](./src/arithmetic/LeetCode/array/ArrayPartitionI.md)
+  - [566 - 重塑矩阵](./src/arithmetic/LeetCode/array/ReshapetheMatrix.md)
+  - [581 - 最短无序连续子数组](./src/arithmetic/LeetCode/array/ShortestUnsortedContinuousSubarray.md)
   - [1287 - 有序数组中出现次数超过25%的元素](./src/arithmetic/LeetCode/array/ElementAppearingMoreThan25%25InSortedArray.md)
 
 </details>
