@@ -95,8 +95,15 @@
   - [509 - 斐波那契数](./src/arithmetic/LeetCode/array/FibonacciNumber.md) :heavy_exclamation_mark:
   - [532 - 数组中的K-diff数对](./src/arithmetic/LeetCode/array/K-diffPairsArray.md) :heavy_exclamation_mark:
   - [561 - 数组拆分 I](./src/arithmetic/LeetCode/array/ArrayPartitionI.md)
-  - [566 - 重塑矩阵](./src/arithmetic/LeetCode/array/ReshapetheMatrix.md)
+  - [566 - 重塑矩阵](./src/arithmetic/LeetCode/array/ReshapetheMatrix.md) :heavy_exclamation_mark:
   - [581 - 最短无序连续子数组](./src/arithmetic/LeetCode/array/ShortestUnsortedContinuousSubarray.md)
+  - [605 - 种花问题](./src/arithmetic/LeetCode/array/CanPlaceFlowers.md)
+  - [628 - 三个数的最大乘积](./src/arithmetic/LeetCode/array/MaximumProductofThreeNumbers.md)
+  - [643 - 子数组最大平均数 I](./src/arithmetic/LeetCode/array/MaximumAverageSubarrayI.md)
+  - [661 - 图片平滑器](./src/arithmetic/LeetCode/array/ImageSmoother.md)
+  - [665 - 非递减数列](./src/arithmetic/LeetCode/array/Non-decreasingArray.md)
+  - [674 - 最长连续递增序列](./src/arithmetic/LeetCode/array/LongestContinuousIncreasingSubsequence.md) :heavy_exclamation_mark:
+  - [697 - 数组的度](./src/arithmetic/LeetCode/array/DegreeofArray.md)
   - [1287 - 有序数组中出现次数超过25%的元素](./src/arithmetic/LeetCode/array/ElementAppearingMoreThan25%25InSortedArray.md)
 
 </details>
