@@ -104,6 +104,12 @@
   - [665 - 非递减数列](./src/arithmetic/LeetCode/array/Non-decreasingArray.md)
   - [674 - 最长连续递增序列](./src/arithmetic/LeetCode/array/LongestContinuousIncreasingSubsequence.md) :heavy_exclamation_mark:
   - [697 - 数组的度](./src/arithmetic/LeetCode/array/DegreeofArray.md)
+  - [717 - 1比特与2比特字符](./src/arithmetic/LeetCode/array/1bitand2bitCharacters.md) :heavy_exclamation_mark:
+  - [724 - 寻找数组的中心索引](./src/arithmetic/LeetCode/array/FindPivotIndex.md)
+  - [746 - 使用最小花费爬楼梯（dp）](./src/arithmetic/LeetCode/array/MinCostClimbingStairs.md) :heavy_exclamation_mark:
+  - [747 - 至少是其他数字两倍的最大数](./src/arithmetic/LeetCode/array/LargestNumberAtLeastTwiceOthers.md)
+  - [766 - 托普利茨矩阵](./src/arithmetic/LeetCode/array/ToeplitzMatrix.md)
+  - [830 - 较大分组的位置](./src/arithmetic/LeetCode/array/PositionsLargeGroups.md)
   - [1287 - 有序数组中出现次数超过25%的元素](./src/arithmetic/LeetCode/array/ElementAppearingMoreThan25%25InSortedArray.md)
 
 </details>
