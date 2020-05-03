@@ -110,6 +110,7 @@
   - [747 - 至少是其他数字两倍的最大数](./src/arithmetic/LeetCode/array/LargestNumberAtLeastTwiceOthers.md)
   - [766 - 托普利茨矩阵](./src/arithmetic/LeetCode/array/ToeplitzMatrix.md)
   - [830 - 较大分组的位置](./src/arithmetic/LeetCode/array/PositionsLargeGroups.md)
+  - [832 - 翻转图像](./src/arithmetic/LeetCode/array/FlippinganImage.md)
   - [1287 - 有序数组中出现次数超过25%的元素](./src/arithmetic/LeetCode/array/ElementAppearingMoreThan25%25InSortedArray.md)
 
 </details>
