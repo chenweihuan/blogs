@@ -111,6 +111,13 @@
   - [766 - 托普利茨矩阵](./src/arithmetic/LeetCode/array/ToeplitzMatrix.md)
   - [830 - 较大分组的位置](./src/arithmetic/LeetCode/array/PositionsLargeGroups.md)
   - [832 - 翻转图像](./src/arithmetic/LeetCode/array/FlippinganImage.md)
+  - [840 - 矩阵中的幻方](./src/arithmetic/LeetCode/array/MagicSquaresInGrid.md)
+  - [849 - 到最近的人的最大距离](./src/arithmetic/LeetCode/array/MaximizeDistanceClosestPerson.md)
+  - [867 - 转置矩阵](./src/arithmetic/LeetCode/array/TransposeMatrix.md)
+  - [888 - 公平的糖果交换](./src/arithmetic/LeetCode/array/FairCandySwap.md)
+  - [896 - 单调数列](./src/arithmetic/LeetCode/array/MonotonicArray.md)
+  - [905 - 按奇偶排序数组](./src/arithmetic/LeetCode/array/SortArrayByParity.md)
+  - [914 - 卡牌分组](./src/arithmetic/LeetCode/array/XKindDeckCards.md) :heavy_exclamation_mark:
   - [1287 - 有序数组中出现次数超过25%的元素](./src/arithmetic/LeetCode/array/ElementAppearingMoreThan25%25InSortedArray.md)
 
 </details>
